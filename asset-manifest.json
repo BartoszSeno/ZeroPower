@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ZeroPower/static/css/main.bf9469d4.css",
+    "main.js": "/ZeroPower/static/js/main.fd4a81cf.js",
+    "static/media/santhorinios_None_9a13a95d-b787-4f8a-8376-30ec3443c067.png": "/ZeroPower/static/media/santhorinios_None_9a13a95d-b787-4f8a-8376-30ec3443c067.0f917154a76400b3e2e0.png",
+    "static/media/texture-img-dark.png": "/ZeroPower/static/media/texture-img-dark.5d06970a8a7079ce0c38.png",
+    "index.html": "/ZeroPower/index.html",
+    "main.bf9469d4.css.map": "/ZeroPower/static/css/main.bf9469d4.css.map",
+    "main.fd4a81cf.js.map": "/ZeroPower/static/js/main.fd4a81cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf9469d4.css",
+    "static/js/main.fd4a81cf.js"
+  ]
+}
