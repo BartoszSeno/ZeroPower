@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainNav from "./hook/MainNav/nav";
-import Footer from "./hook/Footer/footer";
 import { useState } from "react";
 import "./App.css";
 import HomePage from "./page/home";
@@ -11,7 +10,6 @@ import Settings from "./hook/settings/settings";
 import { PlnLangNav } from "./data/Lang/NavLang/pl";
 import { EngLangNav } from "./data/Lang/NavLang/eng";
 import { useEffect } from "react";
-import FollowMe from "./hook/followMe/followme";
 import SubProjectOne from "./page/Project/subProject/ProjectOne/subProjectOne";
 import SubProjectTwo from "./page/Project/subProject/ProjectTwo/subProjectTwo";
 import SubProjectThree from "./page/Project/subProject/ProjectThree/SubProjectThree";
@@ -52,7 +50,7 @@ function App() {
     <>
       {language.map((lang) => {
         return (
-          <BrowserRouter basename="/ZeroPower">
+          <BrowserRouter>
             <MainNav
               langChange={langChange}
               lang={lang}

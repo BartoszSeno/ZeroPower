@@ -8,16 +8,23 @@ function SubProjectOne({ lang }: { lang: any }) {
         <div id="img-c">
           <div className="mac-pc-t">
             <img
-              src="src\assets\img\mac-pc-t.png"
-              alt="Image of mac Computer and Tablet"
+              src="https://raw.githubusercontent.com/BartoszSeno/ZeroPower/main/src/assets/img/mac-pc-t.png"
+              alt="mac Computer and Tablet"
             />
           </div>
           <div className="iphone-p">
-            <img src="src\assets\img\iphone-p.png" alt="Image of Iphon" />
+            <img
+              src="https://raw.githubusercontent.com/BartoszSeno/ZeroPower/main/src/assets/img/iphone-p.png"
+              alt="Iphon"
+            />
           </div>
         </div>
         <button className="demo">
-          <a href="https://bartoszseno.github.io/Project-Shop/" target="_blank">
+          <a
+            href="https://bartoszseno.github.io/Project-Shop/"
+            target="_blank"
+            rel="noreferrer"
+          >
             DEMO
           </a>
         </button>

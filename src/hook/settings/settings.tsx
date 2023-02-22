@@ -10,7 +10,7 @@ function Settings({ setLangChange, lang }: { setLangChange: any; lang: any }) {
       <section className="setings-container mainsd">
         <div className="settings-img">
           <img
-            src="src\assets\img\Settings_white.png"
+            src="https://raw.githubusercontent.com/BartoszSeno/ZeroPower/main/src/assets/img/Settings_white.png"
             alt="Settings"
             onClick={(e) => {
               setOpenSetings(true);

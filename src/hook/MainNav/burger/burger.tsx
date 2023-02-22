@@ -4,7 +4,7 @@ import Project from "../Project/project";
 import Contact from "../Contact/contact";
 import LangChange from "../../LangChange/langChange";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function MainNav({
   langChange,

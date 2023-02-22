@@ -36,11 +36,25 @@ function ContactPage({ lang }: { lang: any }) {
         </div>
         <div className="socialmedia">
           <div className="secial">
-            <a href="https://www.instagram.com/shiikor/" target="_blank">
-              <img src="src\assets\img\social\ig.png" alt="instagram icon" />
+            <a
+              href="https://www.instagram.com/shiikor/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://raw.githubusercontent.com/BartoszSeno/ZeroPower/main/src/assets/img/social/ig.png"
+                alt="instagram icon"
+              />
             </a>
-            <a href="https://github.com/BartoszSeno" target="_blank">
-              <img src="src\assets\img\social\gh.png" alt="git hub icon" />
+            <a
+              href="https://github.com/BartoszSeno"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://raw.githubusercontent.com/BartoszSeno/ZeroPower/main/src/assets/img/social/gh.png"
+                alt="git hub icon"
+              />
             </a>
           </div>
         </div>

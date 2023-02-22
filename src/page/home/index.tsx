@@ -7,11 +7,14 @@ function HomePage({ lang }: { lang: any }) {
     <>
       <section className="home-container" id="homesection">
         <div className="main-img">
-          <img src="src\assets\img\testimg.png" alt="man in the photo" />
+          <img
+            src="https://raw.githubusercontent.com/BartoszSeno/ZeroPower/main/src/assets/img/testimg.png"
+            alt="man"
+          />
         </div>
         <div className="some-img">
           <img
-            src="src\assets\img\astronaut-in-tea-break.gif"
+            src="https://raw.githubusercontent.com/BartoszSeno/ZeroPower/main/src/assets/img/astronaut-in-tea-break.gif"
             alt="astronaut in tea break"
           />
         </div>

@@ -8,17 +8,24 @@ function SubProjectTwo({ lang }: { lang: any }) {
 
         <div id="img-c">
           <div className="gif-p2-m">
-            <img src="src\assets\img\p2g.gif" alt="Image of project site" />
+            <img
+              src="https://raw.githubusercontent.com/BartoszSeno/ZeroPower/main/src/assets/img/p2g.gif"
+              alt="project site"
+            />
           </div>
           <div className="line-mix">
             <img
-              src="src\assets\img\testline.png"
-              alt="Image of multiple line"
+              src="https://raw.githubusercontent.com/BartoszSeno/ZeroPower/main/src/assets/img/testline.png"
+              alt="multiple line"
             />
           </div>
         </div>
         <button className="demo dbtp">
-          <a href="https://bartoszseno.github.io/Project-S/" target="_blank">
+          <a
+            href="https://bartoszseno.github.io/Project-S/"
+            target="_blank"
+            rel="noreferrer"
+          >
             DEMO
           </a>
         </button>
