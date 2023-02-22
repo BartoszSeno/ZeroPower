@@ -1,0 +1,420 @@
+/* 110% */
+
+@media only screen and (max-width: 1919px) {
+  .project {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box {
+    padding: 12px;
+  }
+  /*sub project three*/
+  .des-three-s {
+    height: 1030px;
+  }
+}
+/* 125% */
+
+@media only screen and (max-width: 1745px) {
+  /* SUB PAGE FOR PROJECT ONE*/
+
+  .mac-pc-t img,
+  .iphone-p img {
+    max-height: 780px;
+  }
+
+  .demo {
+    transform: scale(0.9);
+    margin-left: 925px;
+  }
+  /* sub page project two*/
+  .dbtp {
+    transform: scale(1.5);
+  }
+  /*sub project three*/
+  .des-three-s {
+    height: 1060px;
+  }
+}
+/* 150% */
+
+@media only screen and (max-width: 1535px) {
+  .project-container {
+    height: 1130px;
+  }
+  /* SUB PAGE FOR PROJECT ONE*/
+
+  #img-c {
+    margin-left: 200px;
+  }
+
+  .mac-pc-t img,
+  .iphone-p img {
+    max-height: 700px;
+  }
+
+  .des-s {
+    width: 1000px;
+  }
+  .demo {
+    transform: scale(0.8);
+    margin-left: 740px;
+    margin-top: 270px;
+  }
+  /* sub page project two*/
+  .dbtp {
+    margin-top: 800px;
+    margin-left: 300px;
+    transform: scale(1.5);
+  }
+  .gif-p2-m img {
+    max-height: 500px;
+  }
+  /*sub project three*/
+  .des-three-s {
+    height: 1300px;
+    font-size: 40px;
+  }
+}
+/* 175% */
+
+@media only screen and (max-width: 1279px) {
+  /* SUB PAGE FOR PROJECT ONE*/
+
+  .mac-pc-t img,
+  .iphone-p img {
+    max-height: 660px;
+  }
+  .iphone-p img {
+    margin-left: -230px;
+  }
+
+  .des-s {
+    width: 800px;
+  }
+  .demo {
+    transform: scale(1);
+    margin-left: 420px;
+    margin-top: 670px;
+  }
+  /* sub page project two*/
+  .dbtp {
+    margin-top: 650px;
+    margin-left: 300px;
+    transform: scale(1.5);
+  }
+  .gif-p2-m img {
+    max-height: 400px;
+  }
+  .des-two-s {
+    width: 800px;
+  }
+  /*sub project three*/
+  .des-three-s {
+    height: 1500px;
+    font-size: 40px;
+  }
+}
+/* 200% */
+
+@media only screen and (max-width: 1097px) {
+  .project-container {
+    height: 1600px;
+  }
+  /* SUB PAGE FOR PROJECT ONE*/
+  .sub-project-container {
+    display: flex;
+    align-items: center;
+    height: 1200px;
+    width: 100%;
+  }
+
+  #img-c {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .mac-pc-t img,
+  .iphone-p img {
+    max-height: 570px;
+  }
+  .iphone-p img {
+    margin-left: -200px;
+  }
+
+  .des-s {
+    width: 700px;
+    margin-left: 600px;
+  }
+  .demo {
+    transform: scale(1);
+    margin-left: 50px;
+    margin-top: 570px;
+  }
+  /* sub page project two*/
+  .dbtp {
+    margin-top: 600px;
+    margin-left: 20px;
+    transform: scale(1.2);
+  }
+
+  .gif-p2-m img {
+    max-height: 350px;
+    margin-left: 50px;
+  }
+  .des-two-s {
+    width: 700px;
+    margin-top: 0px;
+    margin-left: 600px;
+  }
+  /*sub project three*/
+  .des-three-s {
+    height: 2120px;
+    font-size: 60px;
+  }
+
+  .ml {
+    width: 1330px;
+    margin-left: 0px;
+  }
+}
+/* 300% */
+
+@media only screen and (max-width: 767px) {
+  /* SUB PAGE FOR PROJECT ONE*/
+  .sub-project-container {
+    display: flex;
+    align-items: center;
+    height: 1800px;
+    width: 100%;
+  }
+  .mac-pc-t,
+  .iphone-p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mac-pc-t img,
+  .iphone-p img {
+    max-height: 570px;
+  }
+  .mac-pc-t img {
+    margin-left: 50px;
+  }
+  .iphone-p img {
+    max-height: 700px;
+
+    margin-left: -620px;
+    margin-top: 500px;
+  }
+
+  .des-s {
+    margin-top: -50px;
+    width: 600px;
+    margin-left: 650px;
+  }
+  /* sub page project two*/
+  .dbtp {
+    margin-top: 550px;
+    margin-left: 20px;
+    transform: scale(1.2);
+  }
+
+  .gif-p2-m img {
+    max-height: 300px;
+    margin-left: 30px;
+  }
+  .des-two-s {
+    width: 600px;
+    margin-top: -50px;
+    margin-left: 650px;
+  }
+  .ptspc {
+    height: 1100px;
+  }
+  /*sub project three*/
+  .des-three-s {
+    height: 2540px;
+    font-size: 80px;
+  }
+
+  .ml {
+    width: 1330px;
+    margin-left: 100px;
+  }
+}
+/* 400% */
+
+@media only screen and (max-width: 639px) {
+  .box {
+    transform: scale(0.85);
+  }
+  .project-container {
+    margin-left: -20px;
+  }
+  /* SUB PAGE FOR PROJECT ONE*/
+  .sub-project-container {
+    height: 1830px;
+  }
+
+  .mac-pc-t img,
+  .iphone-p img {
+    max-height: 500px;
+  }
+  .mac-pc-t img {
+    margin-left: 00px;
+  }
+  .iphone-p img {
+    max-height: 700px;
+
+    margin-left: -600px;
+  }
+
+  .des-s {
+    width: 460px;
+    margin-left: 730px;
+  }
+  .demo {
+    transform: scale(1);
+    margin-left: 10px;
+    margin-top: 540px;
+  }
+  /*sub project two*/
+  .dbtp {
+    margin-top: 450px;
+    margin-left: 20px;
+    transform: scale(1);
+  }
+
+  .gif-p2-m img {
+    max-height: 250px;
+    margin-left: 0px;
+  }
+  .des-two-s {
+    width: 450px;
+    margin-top: -200px;
+    margin-left: 730px;
+  }
+  .ptspc {
+    height: 1000px;
+  }
+  /*sub project three*/
+  .des-three-s {
+    height: 3400px;
+    font-size: 80px;
+  }
+
+  .ml {
+    width: 1330px;
+    margin-left: 80px;
+  }
+}
+
+/* 500% */
+
+@media only screen and (max-width: 479px) {
+  .box {
+    transform: scale(0.65);
+  }
+  .project {
+    width: 330px;
+  }
+  .project-container {
+    width: 100%;
+  }
+  /* SUB PAGE FOR PROJECT ONE*/
+  .sub-project-container {
+    height: 1830px;
+  }
+  .title-po h1 {
+    font-size: 70px;
+  }
+  .title-po {
+    margin-top: 10px;
+  }
+  .mac-pc-t img,
+  .iphone-p img {
+    max-height: 400px;
+  }
+  .mac-pc-t img {
+    margin-left: 00px;
+    max-height: 350px;
+    margin-top: 40px;
+  }
+  .iphone-p img {
+    max-height: 700px;
+    margin-top: 380px;
+    margin-left: -525px;
+  }
+
+  .des-s {
+    width: 330px;
+    margin-left: 795px;
+  }
+  .demo {
+    transform: scale(1);
+    margin-left: 10px;
+    margin-top: 430px;
+  }
+  /*sub project two*/
+  .dbtp {
+    margin-top: 400px;
+    margin-left: 20px;
+    transform: scale(1);
+  }
+
+  .gif-p2-m img {
+    max-height: 200px;
+    margin-left: 0px;
+  }
+  .des-two-s {
+    width: 320px;
+    margin-top: -260px;
+    margin-left: 790px;
+  }
+  .ptspc {
+    height: 1100px;
+  }
+  /*sub project three*/
+  .des-three-s {
+    height: 3400px;
+    font-size: 80px;
+  }
+
+  .ml {
+    width: 950px;
+  }
+}
+
+@media only screen and (max-width: 349px) {
+  .title-po h1 {
+    font-size: 55px;
+  }
+  /*sub project two*/
+  .dbtp {
+    margin-top: 360px;
+    margin-left: 0px;
+    transform: scale(1);
+  }
+
+  .gif-p2-m img {
+    max-height: 160px;
+    margin-left: 0px;
+  }
+  .des-two-s {
+    width: 280px;
+    margin-top: -300px;
+    margin-left: 820px;
+  }
+  .ptspc {
+    height: 1100px;
+  }
+  /*sub project three*/
+  .des-three-s {
+    height: 3500px;
+  }
+
+  .ml {
+    width: 800px;
+  }
+}

@@ -1,0 +1,126 @@
+@media only screen and (max-width: 1279px) {
+}
+
+/* 200% */
+
+@media only screen and (max-width: 1097px) {
+  #main-nav {
+    display: none;
+  }
+
+  .frame {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 10000;
+  }
+
+  .center {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .burger {
+    position: relative;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+  }
+
+  .burger-menu__animated {
+    position: absolute;
+    width: 80px;
+    height: 8px;
+    background: #fff;
+    transition: all ease-in-out 0.2s;
+    top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+  }
+
+  .before {
+    top: 0rem;
+  }
+
+  .after {
+    top: 1rem;
+  }
+  .burger:hover .burger-menu__animated:not(.before, .after) {
+    width: 60px;
+  }
+
+  .burger:hover .after {
+    width: 70px;
+    height: 10px;
+  }
+  .close {
+    top: 0.5rem;
+    background-color: white !important;
+    height: 10px !important;
+  }
+
+  .before-rotate {
+    transform: rotate(45deg);
+    transition-delay: 0.2s;
+  }
+  .rotate {
+    transform: rotate(-45deg);
+    transition-delay: 0.2s;
+  }
+
+  .transparent {
+    height: 0px !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+  }
+
+  .width {
+    width: 80px !important;
+  }
+  /**/
+  .burger-menu {
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    justify-content: center;
+  }
+  #main-nav {
+    margin-left: 0;
+    margin-top: 0;
+    width: 400px;
+    height: 100%;
+  }
+
+  .vertical-line,
+  .square {
+    display: none;
+  }
+  #ul-nav {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .about-me-nav,
+  .home-nav,
+  .project-nav,
+  .contact-nav {
+    width: 90%;
+    height: 100%;
+  }
+  .li-nav {
+    padding-left: 10px;
+    width: 90%;
+    font-size: 35px;
+    height: 80px;
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin: 0px !important;
+  }
+  .project-list {
+    display: none !important;
+  }
+  .dot {
+    display: none !important;
+  }
+}

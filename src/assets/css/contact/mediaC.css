@@ -1,0 +1,106 @@
+/*150%*/
+@media only screen and (max-width: 1535px) {
+  .email {
+    width: 800px;
+  }
+}
+
+/* 175% */
+
+@media only screen and (max-width: 1279px) {
+  .email {
+    width: 700px;
+    margin-left: 200px;
+  }
+  .simpe,
+  .socialmedia {
+    margin-left: 200px;
+  }
+}
+
+/* 200% */
+
+@media only screen and (max-width: 1097px) {
+  .email {
+    width: 700px;
+    margin-left: 200px;
+    margin-top: 590px;
+  }
+  .socialmedia {
+    margin-top: 650px;
+  }
+  .simpe,
+  .socialmedia {
+    margin-left: 200px;
+  }
+}
+/* 250% */
+
+@media only screen and (max-width: 959px) {
+  .simpe,
+  .socialmedia,
+  .email {
+    margin-left: 80px;
+  }
+  .email {
+    width: 600px;
+  }
+}
+
+/* 300% */
+
+@media only screen and (max-width: 767px) {
+  .simpe,
+  .socialmedia,
+  .email {
+    margin-left: 40px;
+  }
+  .email {
+    width: 600px;
+  }
+}
+/* 400% */
+
+@media only screen and (max-width: 639px) {
+  .hmm {
+    font-size: 100px;
+  }
+  .simpe {
+    font-size: 80px;
+  }
+  .email {
+    font-size: 30px;
+    margin-top: 530px;
+    width: 300px;
+  }
+  .socialmedia {
+    margin-top: 570px;
+  }
+}
+
+/* 500% */
+
+@media only screen and (max-width: 479px) {
+  .c-t {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .hmm {
+    font-size: 100px;
+  }
+  .simpe {
+    font-size: 80px;
+  }
+  .email {
+    font-size: 30px;
+    margin-top: 630px;
+    width: 300px;
+    display: flex;
+    width: 220px;
+    word-break: break-all;
+  }
+  .socialmedia {
+    margin-top: 700px;
+  }
+}

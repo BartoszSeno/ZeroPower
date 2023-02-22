@@ -1,0 +1,97 @@
+.s-c {
+  color: #49a274;
+}
+
+.c-t {
+  background-image: url(../../img/texture-img-dark.png);
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  color: white;
+}
+
+.simpe {
+  font-size: 80px;
+  height: 500px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+.hmm {
+  font-size: 200px;
+}
+
+p {
+  margin: 0;
+}
+
+.email {
+  display: flex;
+  height: 65px;
+  width: 900px;
+  font-size: 50px;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 530px;
+  cursor: pointer;
+}
+
+.socialmedia {
+  height: 50px;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-left: 390px;
+  margin-top: 585px;
+}
+
+.secial img {
+  width: 30px;
+  cursor: pointer;
+  opacity: 0.7;
+  margin-left: 10px;
+}
+.secial {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+}
+
+.box-copied {
+  background-color: #49a274;
+  display: flex;
+  height: 70px;
+  margin-left: 20px;
+  width: 220px;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  border-radius: 15px;
+  display: none;
+  transition: 0.35s;
+  animation-name: copied;
+  animation-duration: 0.8s;
+  opacity: 0.2;
+}
+
+@keyframes copied {
+  0% {
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}

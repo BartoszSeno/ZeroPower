@@ -1,0 +1,162 @@
+/* 110% */
+
+@media only screen and (max-width: 1919px) {
+}
+
+/* 125% */
+
+@media only screen and (max-width: 1745px) {
+  .name {
+    text-align: center;
+  }
+  .am-container {
+    height: 1100px;
+  }
+}
+/*150%*/
+@media only screen and (max-width: 1535px) {
+  .am-c {
+    width: 750px;
+  }
+
+  .amc {
+    height: 430px;
+    width: 750px;
+  }
+
+  .description {
+    width: 750px;
+  }
+
+  .my-skills {
+    width: 750px;
+  }
+}
+
+/* 175% */
+
+@media only screen and (max-width: 1279px) {
+  .am-container {
+    height: 1080px;
+  }
+  .main-image {
+    margin-left: 0px;
+  }
+}
+
+/* 200% */
+
+@media only screen and (max-width: 1097px) {
+  .main-image {
+    display: none;
+  }
+  .am-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .am-c {
+    margin-left: 110px;
+  }
+  .am-container {
+    height: 1080px;
+  }
+}
+/* 250% */
+
+@media only screen and (max-width: 959px) {
+  .am-c {
+    margin-left: 30px;
+  }
+  .am-container {
+    height: 1160px;
+  }
+}
+
+/* 300% */
+
+@media only screen and (max-width: 767px) {
+  .am-container {
+    height: 1200px;
+  }
+  .amc,
+  .description,
+  .my-skills,
+  .c-s-container {
+    width: 600px;
+    margin-left: -10px;
+  }
+  .my-skills {
+    height: 270px;
+  }
+  .skills-container {
+    height: 380px;
+  }
+}
+/* 400% */
+
+@media only screen and (max-width: 639px) {
+  .am-container {
+    height: 1500px;
+  }
+  .c-s {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 300px;
+  }
+
+  .c-s-container {
+    height: 400px;
+  }
+  .amc,
+  .description,
+  .my-skills,
+  .c-s-container {
+    width: 460px;
+    margin-left: -10px;
+  }
+  .amc {
+    height: 530px;
+  }
+  .my-skills {
+    height: 340px;
+    justify-content: center;
+  }
+  .skills-container {
+    height: 450px;
+  }
+}
+
+/* 500% */
+
+@media only screen and (max-width: 479px) {
+  .am-container {
+    height: 2220px;
+  }
+  .c-s {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 580px;
+  }
+
+  .c-s-container {
+    height: 660px;
+  }
+  .amc,
+  .description,
+  .my-skills,
+  .c-s-container {
+    width: 280px;
+    margin-left: -10px;
+  }
+  .amc {
+    height: 730px;
+  }
+  .my-skills {
+    height: 600px;
+    justify-content: center;
+  }
+  .skills-container {
+    height: 700px;
+  }
+}

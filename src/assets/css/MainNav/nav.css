@@ -1,0 +1,93 @@
+#main-nav {
+  display: flex;
+  height: 600px;
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 50px;
+  position: fixed;
+  z-index: 9800;
+}
+
+#ul-nav {
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+  color: rgb(172, 172, 172);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.li-nav {
+  width: 120px;
+  height: 134px;
+  margin-left: 10px;
+  transition: 0.35s;
+}
+
+.project-nav,
+.home-nav,
+.contact-nav,
+.about-me-nav {
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.project-list {
+  animation-name: projectLeftToRight;
+  animation-duration: 0.4s;
+}
+
+@keyframes projectLeftToRight {
+  0% {
+    margin-left: -10px;
+    opacity: 0.2;
+  }
+  100% {
+  }
+}
+/*active*/
+
+.active {
+  color: white;
+}
+
+/*nav line and squere*/
+.square {
+  background-color: white;
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  margin-left: -5.5px;
+  margin-top: 18px;
+  transition: 0.35s;
+}
+
+.vertical-line {
+  position: absolute;
+  background-color: white;
+  width: 3px;
+  height: 400px;
+  margin-top: 25px;
+  transition: 0.35s;
+  border-radius: 1.5px;
+}
+
+.dot {
+  background-color: white;
+  height: 9px;
+  width: 9px;
+  position: absolute;
+  margin-left: -13px;
+  margin-top: -30px;
+  transition: 0.35s;
+  border-radius: 50%;
+}

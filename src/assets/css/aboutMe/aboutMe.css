@@ -1,0 +1,135 @@
+.am-container {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url(../../img/texture-img-dark.png);
+  text-shadow: 2px 1px 6px rgba(0, 0, 0, 0.7);
+}
+
+.main-image {
+  height: 100%;
+  width: 450px;
+  margin-left: 250px;
+  background-image: url("../../img/santhorinios_None_9a13a95d-b787-4f8a-8376-30ec3443c067.png");
+  background-repeat: no-repeat;
+  background-size: 660px;
+  background-position-x: -120px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  margin-top: 720px;
+  text-shadow: 2px 1px 6px rgba(0, 0, 0, 0);
+  font-family: "DosisExtraBold";
+}
+
+.f-d {
+  font-size: 20px;
+  color: #49a274;
+  margin-top: 15px;
+}
+
+.am-c {
+  margin-left: 50px;
+}
+
+.amc {
+  width: 1000px;
+  height: 330px;
+  color: white;
+  font-size: 25px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.158);
+}
+
+h1 {
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.info {
+  margin-bottom: 15px;
+  color: rgba(128, 128, 128, 0.5);
+}
+
+.description {
+  width: 900px;
+  color: rgb(200, 200, 200);
+}
+
+.hiden {
+  display: none;
+}
+
+h2 {
+  font-size: 40px;
+  color: white;
+}
+
+.skills-container {
+  height: 300px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.158);
+}
+
+.my-skills {
+  height: 200px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -10px;
+}
+
+.skill-option {
+  background-color: #49a274;
+  font-size: 30px;
+  padding: 20px 40px 20px 40px;
+  height: 35px;
+  margin-left: 15px;
+  color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 0.5);
+  cursor: default;
+}
+
+.c-s-container {
+  height: 230px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.158);
+}
+
+.c-s {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -10px;
+}
+
+.option {
+  background-color: #49a274;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  font-size: 25px;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 130px;
+  border-radius: 15px;
+  margin-left: 15px;
+  color: white;
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 0.5);
+}
+
+.time {
+  color: rgb(97, 97, 97);
+  text-shadow: 2px 1px 6px rgba(0, 0, 0, 0);
+  text-align: center;
+}
