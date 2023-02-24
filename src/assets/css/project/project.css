@@ -294,7 +294,7 @@
   position: absolute;
   background-color: black;
   color: red;
-  justify-content: center;
+  text-align: center;
   align-items: center;
   font-size: 45px;
   font-weight: 900;

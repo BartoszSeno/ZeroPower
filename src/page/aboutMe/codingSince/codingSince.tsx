@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import TimeCount from "../../../hook/timeCount/timeCount";
 import { useEffect, useState } from "react";
 
