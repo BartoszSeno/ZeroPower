@@ -31,7 +31,7 @@ export const PlnLangNav = [
     courses1transalte: null,
     courses2: "UDT wózki widłowe, ",
     courses3: "kursy przeciwpożarowe ewakuacyjne. ",
-    sentence7: `Postanowiłem zmienić aktualną pracę, ponieważ dalszy rozwój jest średni możliwy. `,
+    sentence7: `Postanowiłem zmienić aktualną pracę, ponieważ dalszy rozwój jest średnio możliwy. `,
     sentence8: `Dlatego uczę się programowania od około roku w dziedzinie `,
     frontend: "Front-End",
     myskills: "Moje Umiejętnośći",
