@@ -7,13 +7,13 @@
 }
 
 .main-img img {
-  width: 750px;
+  width: 700px;
 }
 
 .main-img {
   position: absolute;
-  margin-left: 150px;
-  margin-top: 70px;
+  margin-left: 250px;
+  margin-top: -200px;
 }
 
 .mini-desc {

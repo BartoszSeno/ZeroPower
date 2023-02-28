@@ -11,10 +11,11 @@
   height: 100%;
   width: 450px;
   margin-left: 250px;
-  background-image: url("../../img/santhorinios_None_9a13a95d-b787-4f8a-8376-30ec3443c067.png");
+  background-image: url("https://raw.githubusercontent.com/BartoszSeno/ZeroPower/main/src/assets/imgme/fdsaf.png");
   background-repeat: no-repeat;
   background-size: 660px;
-  background-position-x: -120px;
+  background-position-x: -200px;
+  background-size: 980px;
 }
 
 .name {

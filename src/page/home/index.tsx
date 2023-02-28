@@ -8,7 +8,7 @@ function HomePage({ lang }: { lang: any }) {
       <section className="home-container" id="homesection">
         <div className="main-img">
           <img
-            src="https://raw.githubusercontent.com/BartoszSeno/ZeroPower/main/src/assets/img/testimg.png"
+            src="https://raw.githubusercontent.com/BartoszSeno/ZeroPower/main/src/assets/imgme/glitch-image-1677603007.png"
             alt="man"
           />
         </div>
