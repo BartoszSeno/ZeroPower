@@ -14,9 +14,9 @@ code {
 
 @font-face {
   font-family: "DosisBold";
-  src: url("assets//font//Dosis-Bold.otf");
+  src: url("https://raw.githubusercontent.com/BartoszSeno/ZeroPower/main/src/assets/font/Dosis-Bold.otf");
 }
 @font-face {
   font-family: "DosisExtraBold";
-  src: url("assets/font/Dosis-ExtraBold.otf");
+  src: url("https://raw.githubusercontent.com/BartoszSeno/ZeroPower/main/src/assets/font/Dosis-ExtraBold.otf");
 }
