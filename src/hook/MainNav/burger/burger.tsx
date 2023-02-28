@@ -2,7 +2,6 @@ import Home from "../Home/Home";
 import AboutMe from "../AboutMe/aboutme";
 import Project from "../Project/project";
 import Contact from "../Contact/contact";
-import LangChange from "../../LangChange/langChange";
 
 import { useState } from "react";
 
@@ -20,6 +19,8 @@ function MainNav({
   dotMarginTop,
   setdotMarginTop,
   setLangChange,
+  setBLOAC,
+  BLOAC,
 }: {
   langChange: any;
   lang: any;
@@ -34,6 +35,8 @@ function MainNav({
   dotMarginTop: any;
   setdotMarginTop: any;
   setLangChange: any;
+  setBLOAC: any;
+  BLOAC: any;
 }) {
   const [openProject, setOpenProject] = useState<boolean>(false);
 
@@ -119,10 +122,19 @@ function MainNav({
   function openAndClose() {
     setopenBurgerMenu(!openBurgerMenu);
   }
+  function openAndCloseBurgerLang() {
+    setBLOAC(!BLOAC);
+  }
 
   return (
     <>
-      <div className="frame" onClick={openAndClose}>
+      <div
+        className="frame"
+        onClick={(e) => {
+          openAndClose();
+          openAndCloseBurgerLang();
+        }}
+      >
         <div className="center">
           <div className="burger" onClick={toggleMenu}>
             <div className="burger-menu__animated"></div>
@@ -198,9 +210,6 @@ function MainNav({
             setProjectList={setProjectList}
             setProjectListDot={setProjectListDot}
           />
-          <li>
-            <LangChange setLangChange={setLangChange} />
-          </li>
         </ul>
       </nav>
     </>

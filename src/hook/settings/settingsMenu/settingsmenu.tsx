@@ -2,32 +2,38 @@ import LangChange from "../../LangChange/langChange";
 
 function SettingsMenu({
   setLangChange,
-  openSetings,
-  setOpenSetings,
   lang,
+  BLOAC,
+  SLOAC,
+  openAdnCloseSetings,
 }: {
   setLangChange: any;
-  openSetings: any;
-  setOpenSetings: any;
   lang: any;
+  BLOAC: any;
+  SLOAC: any;
+  openAdnCloseSetings: any;
 }) {
   return (
     <>
       <section
         className="setings-menu-container"
-        style={{ display: !openSetings ? "none" : "flex" }}
+        style={{ display: !SLOAC ? "none" : "flex" }}
       >
         <div id="slose-menu">
           <div
             className="close"
             onClick={(e) => {
-              setOpenSetings(false);
+              openAdnCloseSetings();
             }}
           >
             X
           </div>
         </div>
-        <form action="settings-options" className="language-settings">
+        <form
+          action="settings-options"
+          className="language-settings"
+          style={{ display: BLOAC || SLOAC ? "flex" : "none" }}
+        >
           <label htmlFor="lang">{lang.changelang}</label>
           <LangChange setLangChange={setLangChange} />
         </form>

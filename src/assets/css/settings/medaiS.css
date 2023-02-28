@@ -15,9 +15,3 @@
 }
 
 /* 200% */
-
-@media only screen and (max-width: 1097px) {
-  .mainsd {
-    display: none;
-  }
-}

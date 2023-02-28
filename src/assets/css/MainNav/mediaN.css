@@ -123,4 +123,22 @@
   .dot {
     display: none !important;
   }
+  /*setings*/
+  .setings-menu-container {
+    display: flex !important;
+    height: 200px !important;
+    background-color: transparent !important;
+    margin-top: 420px !important;
+    font-size: 35px !important;
+    color: gray !important;
+  }
+  #slose-menu {
+    display: none !important;
+  }
+  .settings-img {
+    display: none !important;
+  }
+  .language-settings {
+    display: flex;
+  }
 }

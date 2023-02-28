@@ -46,6 +46,10 @@ function App() {
 
   const [dotMarginTop, setdotMarginTop] = useState<string>("-30px");
 
+  const [BLOAC, setBLOAC] = useState(false);
+
+  const [SLOAC, setSLOAC] = useState(false);
+
   return (
     <>
       {language.map((lang) => {
@@ -65,8 +69,16 @@ function App() {
               dotMarginTop={dotMarginTop}
               setdotMarginTop={setdotMarginTop}
               setLangChange={setLangChange}
+              setBLOAC={setBLOAC}
+              BLOAC={BLOAC}
             />
-            <Settings setLangChange={setLangChange} lang={lang} />
+            <Settings
+              setLangChange={setLangChange}
+              lang={lang}
+              BLOAC={BLOAC}
+              SLOAC={SLOAC}
+              setSLOAC={setSLOAC}
+            />
             <Routes>
               <Route path="/" element={<HomePage lang={lang} />}></Route>
               <Route

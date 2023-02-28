@@ -24,6 +24,8 @@ function MainNav({
   dotMarginTop,
   setdotMarginTop,
   setLangChange,
+  setBLOAC,
+  BLOAC,
 }: {
   langChange: any;
   lang: any;
@@ -38,6 +40,8 @@ function MainNav({
   dotMarginTop: any;
   setdotMarginTop: any;
   setLangChange: any;
+  setBLOAC: any;
+  BLOAC: any;
 }) {
   const [openProject, setOpenProject] = useState<boolean>(false);
 
@@ -118,12 +122,6 @@ function MainNav({
     }
   };
 
-  const [openBurgerMenu, setopenBurgerMenu] = useState<boolean>(false);
-
-  function openAndClose() {
-    setopenBurgerMenu(!openBurgerMenu);
-  }
-
   return (
     <>
       <Burger
@@ -140,6 +138,8 @@ function MainNav({
         dotMarginTop={dotMarginTop}
         setdotMarginTop={setdotMarginTop}
         setLangChange={setLangChange}
+        setBLOAC={setBLOAC}
+        BLOAC={BLOAC}
       />
       <nav id="main-nav">
         <ul id="ul-nav">
