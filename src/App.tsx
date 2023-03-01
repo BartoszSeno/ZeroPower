@@ -54,7 +54,7 @@ function App() {
     <>
       {language.map((lang) => {
         return (
-          <BrowserRouter>
+          <BrowserRouter basename="/ZeroPower">
             <MainNav
               langChange={langChange}
               lang={lang}
