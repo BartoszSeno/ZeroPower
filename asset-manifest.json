@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ZeroPower/static/css/main.aec06e54.css",
-    "main.js": "/ZeroPower/static/js/main.2b39328b.js",
+    "main.js": "/ZeroPower/static/js/main.d56f9e1c.js",
     "static/media/texture-img-dark.png": "/ZeroPower/static/media/texture-img-dark.5d06970a8a7079ce0c38.png",
     "index.html": "/ZeroPower/index.html",
     "main.aec06e54.css.map": "/ZeroPower/static/css/main.aec06e54.css.map",
-    "main.2b39328b.js.map": "/ZeroPower/static/js/main.2b39328b.js.map"
+    "main.d56f9e1c.js.map": "/ZeroPower/static/js/main.d56f9e1c.js.map"
   },
   "entrypoints": [
     "static/css/main.aec06e54.css",
-    "static/js/main.2b39328b.js"
+    "static/js/main.d56f9e1c.js"
   ]
 }
