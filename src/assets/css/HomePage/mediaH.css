@@ -189,16 +189,17 @@
   }
 
   .mini-desc {
-    margin-left: 100px;
+    margin-left: 130px;
     font-size: 25px;
-    width: 300px;
+    width: 100%;
     margin-left: 0;
     text-align: center;
   }
 
   .some-text {
     font-size: 60px;
-    width: 300px;
+    width: 100%;
+
     margin-left: 10px;
     text-align: center;
   }

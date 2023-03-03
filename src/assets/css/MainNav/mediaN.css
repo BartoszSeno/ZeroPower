@@ -81,16 +81,20 @@
     width: 80px !important;
   }
   /**/
+
   .burger-menu {
     background-color: rgb(43, 43, 43);
     display: flex;
     justify-content: center;
+    overflow: hidden !important;
   }
   #main-nav {
     margin-left: 0;
     margin-top: 0;
     width: 400px;
-    height: 100%;
+    height: 99%;
+    position: fixed;
+    overflow: hidden !important;
   }
 
   .vertical-line,
@@ -140,5 +144,6 @@
   }
   .language-settings {
     display: flex;
+    position: fixed;
   }
 }
