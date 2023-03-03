@@ -47,7 +47,12 @@ function ProjectThree({
               </div>
             </Link>
             <div className="b-demo">
-              <button>Demo</button>
+              <a
+                href=" https://github.com/BartoszSeno/ClickerZero"
+                target="_blank"
+              >
+                <button>Demo</button>
+              </a>
             </div>
           </div>
         </div>
